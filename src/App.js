@@ -22,6 +22,15 @@ function About() {
     </div>
   );
 }
+function Contact() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Contact Page</h1>
+      </header>
+    </div>
+  );
+}
 
 function App() {
   return (
@@ -29,6 +38,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </Router>
   );
