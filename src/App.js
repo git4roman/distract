@@ -8,6 +8,7 @@ function Home() {
     <div className="App">
       <header className="App-header">
         <h1>Namaste, Roman Khatri</h1>
+        <a href="/about">Click me</a>
       </header>
     </div>
   );
